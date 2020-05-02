@@ -1,1 +1,1 @@
-web: bin/yliquidcalculator
+web: bin/YliquidCalculator
