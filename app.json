@@ -1,6 +1,6 @@
 {
-  "name": "Start on Heroku: Go",
-  "description": "Go Getting Started Example App",
+  "name": "YliquidCalculator",
+  "description": "Calculate liquid amount for vape.",
   "keywords": [
     "getting-started",
     "go",
@@ -8,5 +8,5 @@
     "example"
   ],
   "website": "http://github.com/heroku/go-getting-started",
-  "repository": "http://github.com/heroku/go-getting-started"
+  "repository": "https://github.com/Squaess/YliquidCalculator"
 }
