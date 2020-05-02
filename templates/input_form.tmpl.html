@@ -1,0 +1,27 @@
+<div class="cover-container mx-auto">
+    <form action="/result" method="POST" class="container-fluid">
+        <div class="form-group raw form-inline">
+            <label for="liquidAmount" class="col">Liquid Amount (ml)</label>
+            <input type="text" class="form-control col" id="liquidAmount" placeholder="60" name="liquidAmount" value=60>
+        </div>
+        <div class="form-group raw form-inline">
+            <label for="desNic" class="col">Desired nicotine concentration (mg/ml)</label>
+            <input type="text" class="form-control col" id="desNic" placeholder="0" name="desNic" value=0>
+        </div>
+        <div class="form-group raw form-inline">
+            <label for="actNic" class="col">Actual nicotine concentration (mg/ml)</label>
+            <input type="text" class="form-control col" id="actNic" placeholder="0" name="actNic" value=0>
+        </div>
+        <div class="form-group raw form-inline">
+            <label for="armConc" class="col">Aroma concentration (%)</label>
+            <input type="text" class="form-control col" id="armConc" placeholder="10" name="armConc" value=10>
+        </div>
+        <div class="form-group raw form-inline">
+            <label for="vgPer" class="col">VG percentage in base (%)</label>
+            <input type="text" class="form-control col" id="vgPer" placeholder="50" name="vgPer" value=50>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary" style="width: 50%;">Go</button>
+        </div>
+    </form>
+</div>
